@@ -14,7 +14,8 @@ import com.htc.htcdemo.helpers.MyException;
 import com.htc.htcdemo.pages.SeleniumEasyHomePage;
 
 public class SeleniumEasyHome extends Base {
-	//Launch the selenium easy demo page and verify selenium easy demo page title	
+	//Launch the selenium easy demo page and verify selenium easy demo page title
+	//test
 	@Test(dataProvider = "Democomponents", dataProviderClass = DemoMyDataProvider.class)
 	public void TC01_VerifyPageTitle(Map<String, String> testData, Method method) throws MyException {
 		setTestCase(getParentTestCase().createNode(method.getName()));
